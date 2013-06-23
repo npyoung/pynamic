@@ -1,0 +1,3 @@
+It works, but right now it doesn't use the save_directory argument and it tries to hold all results in a dict.
+Need to decide on how you want to save files, given that some arguments are huge.
+Try using dictionary's collision-avoidance method to generate unique keys given the content of the folder already.
